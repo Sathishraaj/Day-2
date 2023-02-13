@@ -1,0 +1,33 @@
+
+Blog on the differences between the Document and Window objects.
+In JavaScript, the Document and Window objects are two of the most important objects used in web development. Although they are related to each other, they have distinct differences in their properties, methods, and behaviors. Let's take a closer look at each of these objects and their differences.
+The Document Object: 
+The Document object represents the web page itself and provides access to the HTML elements and other objects on the page. It is the top-level object in the Document Object Model (DOM) hierarchy, and it contains properties and methods for manipulating the contents of the web page.
+Key Properties:
+* Document.title 
+* Document.URL
+* Document.body 
+* Document.head
+KEY METHODS :
+* Document.getElementbyid()
+* Document.createElement()
+* Document.write()
+The Window Object:
+The window object represents the web browser window or frame that contains the document objects. It provides access to the browser features and allows the user to interact with web pages.
+
+Key Properties:
+* window.innerHeight
+* window.innerWidth
+* window.location
+* window.history
+  KEY METHODS :
+* window.alert()
+* window.prompt()
+* window.open()
+  The differences between the Document and Window objects:
+* The Document object represents the content of the web page, while the Window object represents the browser window or frame that contains the page.
+* The Document object is created when the web page loads, while the Window object is created when the browser window is opened.
+* The Document object is a child of the Window object and is accessed through the Window object.
+* The properties and methods of the Document object are used to manipulate the content of the web page, while the properties and methods of the Window object are used to manipulate the browser window and interact with the user.
+In summary, the Document and Window objects are both essential components of web development in JavaScript. While they share some similarities, they have distinct differences in their properties, methods, and behaviors. Understanding these differences is important for effective web development and creating interactive and engaging web pages.
+
